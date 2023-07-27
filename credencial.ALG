@@ -14,12 +14,13 @@ leia(password)
 
 
 
-enquanto (user <> "admin") ou (password <> "admim") faca
-  escreva("digite o seu usuário: ")
-leia(user)
-escreva("digite a sua senha: ")
-leia(password)
+enquanto (user <> "admin") ou (password <> "admin") faca
+   escreval("usuário ou senha em invalidos")
+   escreva("digite o seu usuário: ")
+       leia(user)
+   escreva("digite a sua senha: ")
+       leia(password)
 fimenquanto
-
+escreval("seja bem vindo ao sistema")
 
 Fimalgoritmo
